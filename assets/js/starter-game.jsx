@@ -130,10 +130,10 @@ class Starter extends React.Component {
       }
     });
 
-    let row1Cards = row1.map(c => <div className="column" key={c.key}><p><Card root={this} key={c.key} card={c}/></p></div>);
-    let row2Cards = row2.map(c => <div className="column" key={c.key}><p><Card root={this} key={c.key} card={c}/></p></div>);
-    let row3Cards = row3.map(c => <div className="column" key={c.key}><p><Card root={this} key={c.key} card={c}/></p></div>);
-    let row4Cards = row4.map(c => <div className="column" key={c.key}><p><Card root={this} key={c.key} card={c}/></p></div>);
+    let row1Cards = row1.map(c => <div className="column" key={c.key}><Card root={this} key={c.key} card={c}/></div>);
+    let row2Cards = row2.map(c => <div className="column" key={c.key}><Card root={this} key={c.key} card={c}/></div>);
+    let row3Cards = row3.map(c => <div className="column" key={c.key}><Card root={this} key={c.key} card={c}/></div>);
+    let row4Cards = row4.map(c => <div className="column" key={c.key}><Card root={this} key={c.key} card={c}/></div>);
 
     return (
       <div>

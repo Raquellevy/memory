@@ -36,7 +36,7 @@
     height: 8em;
     width: 7em;
     padding: 3em;
-    margin-left: 3em;
+    margin-bottom: 3em;
     border: 0.1rem solid #9b4dca;
     border-radius: .4rem;
     background-color: #9b4dca;
@@ -47,7 +47,7 @@
     height: 8em;
     width: 7em;
     padding: 3em;
-    margin-left: 3em;
+    margin-bottom: 3em;
     border: 0.1rem solid green;
     border-radius: .4rem;
     background-color:green;
@@ -55,6 +55,9 @@
 }
 
 button {
+    margin-right: 3em;
+    margin-bottom: 3em;
+    padding:3em;
     height: 12em !important;
     width: 10em;
 }
