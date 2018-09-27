@@ -54,7 +54,7 @@ class Starter extends React.Component {
       newCards.map(card => {
         unflippedCards.push({key: card.key, letter: card.letter, flipped: false, matched: card.matched});
       });
-      
+    
       let state1 = _.assign({}, this.state, { cards: unflippedCards });
       this.setState(state1);
     }, 1000);
