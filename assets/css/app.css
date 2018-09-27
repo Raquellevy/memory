@@ -7,3 +7,54 @@
     text-align: center;
 }
 
+.restart-button {
+    background-color: lightblue;
+    border: 0.1rem solid lightblue;
+    border-radius: .4rem;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 3.8rem;
+    letter-spacing: .1rem;
+    line-height: 3.8rem;
+    padding: 0 3.0rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.card-back {
+    border-color: black;
+    border-width: 1px;
+    color: gray;
+}
+
+.flipped-card {
+    height: 8em;
+    width: 7em;
+    padding: 3em;
+    margin-left: 3em;
+    border: 0.1rem solid #9b4dca;
+    border-radius: .4rem;
+    background-color: #9b4dca;
+    color: white;
+}
+
+.matched-card {
+    height: 8em;
+    width: 7em;
+    padding: 3em;
+    margin-left: 3em;
+    border: 0.1rem solid green;
+    border-radius: .4rem;
+    background-color:green;
+    color: white;
+}
+
+button {
+    height: 12em !important;
+    width: 10em;
+}
