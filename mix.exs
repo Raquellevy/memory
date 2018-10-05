@@ -38,8 +38,7 @@ defmodule Memory.MixProject do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:cowboy, "~> 1.0"},
-      {:distillery, "~> 2.0"},
+      {:cowboy, "~> 1.0"}
     ]
   end
 end

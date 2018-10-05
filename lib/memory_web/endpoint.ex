@@ -38,7 +38,7 @@ defmodule MemoryWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_memory_key",
-    signing_salt: "YRRT7teV"
+    signing_salt: "x/lNX/fr"
 
   plug MemoryWeb.Router
 end

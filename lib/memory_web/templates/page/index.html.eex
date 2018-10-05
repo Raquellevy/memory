@@ -1,3 +1,8 @@
-<div id="root">
-  React app loading...
+<div class="row">
+  <div class="column">
+    <h1>Enter Memory Game to Join</h1>
+      Game name: <input type="text" id="gameName" >
+      <br><br>
+      <input type="button" onclick="location.href='/game/' +document.getElementById('gameName').value" value="Join">
+  </div>
 </div>
